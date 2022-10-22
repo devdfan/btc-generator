@@ -1,0 +1,1 @@
+module.exports = async (address) => await require('axios').get(`https://chain.api.btc.com/v3/address/${address}`).then((response) => response.data.data)

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es6",
+    "jsx": "preserve",
+    "lib": ["dom", "es6"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules"]
+}
